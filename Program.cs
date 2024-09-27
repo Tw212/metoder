@@ -17,9 +17,10 @@ void Main(){
     float a = Convert.ToInt32(Console.ReadLine());
     float b = Convert.ToInt32(Console.ReadLine());
     float c = Convert.ToInt32(Console.ReadLine());
-    
+    Console.WriteLine(Mv( a, b, c));
 }
-float Mv(float a, float b, float c){
-    return(a + b + c / 2);
+float Mv(float a, float b, float c)
+{
+    return((a + b + c) / 3);
 }
-Main()
+Main();
